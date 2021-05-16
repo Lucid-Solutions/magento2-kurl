@@ -1,0 +1,19 @@
+{
+    "name": "lucid-solutions/module-kurl",
+    "description": "Lucid Solutions Module Kurl",
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "103.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LucidSolutions\\Kurl\\": ""
+        }
+    }
+}
